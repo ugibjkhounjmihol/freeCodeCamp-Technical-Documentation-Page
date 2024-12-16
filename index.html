@@ -1,0 +1,95 @@
+<link rel="stylesheet" href="styles.css">
+
+<main id="main-doc">
+  <nav id="navbar">
+    <header>
+      <p><strong>Documentation</strong></p>
+    </header>
+    <a class="nav-link" href="#web_development_introduction">Web Development Introduction</a>
+    <a class="nav-link" href="#what_is_html">What is HTML</a>
+    <a class="nav-link" href="#what_is_css">What is CSS</a>
+    <a class="nav-link" href="#what_is_javascript">What is JavaScript</a>
+    <a class="nav-link" href="#data_types">Data Types</a>
+    <a class="nav-link" href="#references">References</a>
+  </nav>
+
+  <section class="main-section" id="web_development_introduction">
+    <header>
+      <p><strong>Web Development Introduction</strong></p>
+    </header>
+    <p>Web development is the process of creating websites and web applications that people can access over the internet. At its core, it involves three main building blocks:
+      <ul>
+        <li><strong>HTML (HyperText Markup Language)</strong>, which structures the content of a web page;</li>
+        <li><strong>CSS (Cascading Style Sheets)</strong>, which styles the page and makes it visually appealing;</li>
+        <li><strong>JavaScript</strong>, which adds interactivity and functionality, such as forms, animations, or dynamic content.</li>
+      </ul>
+    </p>
+    <p>Together, these tools enable developers to build everything from simple blogs to complex platforms like social media sites. Web development also includes understanding how websites are hosted and accessed, ensuring they work smoothly on different devices and browsers.</p>
+  </section>
+
+  <section class="main-section" id="what_is_html">
+    <header>
+      <p><strong>What is HTML</strong></p>
+    </header>
+    <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. At its heart, HTML is a language made up of elements, which can be applied to pieces of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is it part of a table?), structure a document into logical sections (Does it have a header? Three columns of content? A navigation menu?), and embed content such as images and videos into a page.</p>
+    <code>&lt;!DOCTYPE HTML&gt;</code>
+  </section>
+
+  <section class="main-section" id="what_is_css">
+    <header>
+      <p><strong>What is CSS</strong></p>
+    </header>
+    <p>CSS (Cascading Style Sheets) is designed to enable the separation of content and presentation, including layout, colors, and fonts. CSS is used to style and lay out web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.</p>
+    <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+  </section>
+
+  <section class="main-section" id="what_is_javascript">
+    <header>
+      <p><strong>What is JavaScript</strong></p>
+    </header>
+    <p>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server-side versions of JavaScript such as Node.js, which allow you to add more functionality to a website than downloading files (such as real-time collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+    <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements.</p>
+    <p>A console.log statement:</p>
+    <code>console.log("Hello World");</code>
+    </br></br>
+    <p>A function:</p>
+    <code>function changeText() {<br>
+        &nbsp; document.getElementById("demo").innerHTML = "You clicked the button!";<br>
+    }</code>
+  </section>
+
+  <section class="main-section" id="data_types">
+    <header>
+      <p><strong>Data Types</strong></p>
+    </header>
+    <p>The latest ECMAScript standard defines seven data types:</p>
+    <ul>
+      <li>Boolean: true and false.</li>
+      <code>let isActive = true;</code>
+      <li>null: A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+      <code>let emptyValue = null;</code>
+      <li>undefined: A top-level property whose value is undefined.</li>
+      <code>let notDefined;</code>
+      <li>Number: 42 or 3.14159.</li>
+      <code>let age = 25;</code>
+      <li>String: "Howdy"</li>
+      <code>let name = "Alice";</code>
+      <li>Symbol (new in ECMAScript 2015): A data type whose instances are unique and immutable.</li>
+      <code>let sym = Symbol("description");</code>
+      <li>Object: key-value pairs where the keys (properties) are strings (or symbols), and the values can be any valid JavaScript data type, including other objects, functions, or arrays.</li>
+      <code>let person = {
+  name: "John",
+  age: 30,
+  isActive: true
+};
+</code>
+    </ul>
+  </section>
+
+  <section class="main-section" id="references">
+    <header>
+      <p><strong>References</strong></p>
+    </header>
+    <p>All documentation from this page is either taken from or partially adapted from <a href="https://developer.mozilla.org/en-US/">MDN</a>.</p>
+  </section>
+</main>
